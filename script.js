@@ -1,6 +1,5 @@
 let currentsong= new Audio();
 
-
 // to convert seconds to minutes
 function formattime(seconds){
     const min=Math.floor(seconds / 60)
@@ -9,7 +8,6 @@ function formattime(seconds){
     const formatedremainingsec=String(remainingsec).padStart(2,'0')
     return `${formatedmin}:${formatedremainingsec}`
 }
-
 
 const songs=[
     "Cosmic-Lish Grooves.mp3",
